@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sousthab Chakma - Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <header class="header">
+      <div class="container">
+        <a href="#" class="logo">SC</a>
+        <nav class="nav">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+      <div class="container">
+        <p class="hero-greeting">Hi, I'm</p>
+        <h1 class="hero-name">Sousthab Chakma</h1>
+        <p class="hero-title">Aspiring Full Stack Developer</p>
+        <p class="hero-description">
+          I'm a student of Swinburne University majoring in software
+          development. I am aspiring to be a fullstack developer. Currently
+          working through a full stack bootcamp covering HTML, CSS, JavaScript,
+          React, Node.js, and AWS.
+        </p>
+        <div class="hero-links">
+          <a href="#contact" class="btn btn-primary">Get in Touch</a>
+          <a href="#projects" class="btn btn-secondary">View Projects</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+      <div class="container">
+        <h2 class="section-title">Skills & Technologies</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3>Frontend</h3>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+              <li>React</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h3>Backend</h3>
+            <ul>
+              <li>Node.js</li>
+              <li>Express.js</li>
+              <li>PostgreSQL</li>
+              <li>REST APIs</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h3>Tools</h3>
+            <ul>
+              <li>Git & GitHub</li>
+              <li>VS Code</li>
+              <li>Docker</li>
+              <li>AWS</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-image"></div>
+            <div class="project-info">
+              <h3>Portfolio Website</h3>
+              <p>
+                A responsive portfolio built with HTML and CSS. You're looking
+                at it!
+              </p>
+              <div class="project-tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">Responsive</span>
+              </div>
+              <div class="project-links">
+                <a href="#">Live Demo</a>
+                <a
+                  href="https://github.com/SousthabChakma/web-dev-portfolio"
+                  target="_blank"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-image"></div>
+            <div class="project-info">
+              <h3>EV Battery Health Degradation (Geotab)</h3>
+              <p>
+                Capstone project analyzing electric vehicle battery health and
+                degradation patterns.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Data Analysis</span>
+                <span class="tag">Machine Learning</span>
+                <span class="tag">Capstone</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/SousthabChakma/EV-Battery-Health-Geotab-"
+                  target="_blank"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="contact-description">
+          I'm always open to learning opportunities and collaborations. Feel
+          free to reach out!
+        </p>
+        <form class="contact-form" action="#" method="POST">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>
+          &copy; 2026 Sousthab Chakma. Built during the Full Stack Bootcamp.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
